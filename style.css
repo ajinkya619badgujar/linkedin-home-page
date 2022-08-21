@@ -1,0 +1,780 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    
+}
+body{
+    background-color: rgb(228, 229, 229);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+.left_header img{
+    object-fit: contain;
+    height: 35px;
+    margin-left: 10px;
+    
+
+}
+
+
+.navbar{
+    width:  100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+   
+    z-index: 100;
+    
+    border-bottom: 0.1px solid lightgrey;
+    padding: 10px;
+    background-color: white;
+    height:  45px;
+    
+}
+.left_header{
+    display: flex;
+    margin-left: 100px; 
+    
+}
+
+.right_header{
+    display: flex;
+    margin-right: 50px;
+
+    
+}
+.search{
+    padding: 7px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: gray;
+    margin-left: 10px;
+
+    
+
+}
+.search input{
+    outline: none;
+    border: none;
+    background-color:lightgray ;
+    width: 150px;
+
+
+}
+h2{
+    font-size: 15px;
+    font-weight: 300px;
+
+
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+    color: gray;
+ 
+    
+}
+a{
+    color: rgb(95, 95, 95);
+}
+
+
+
+.premium{
+    text-align: center; 
+    overflow: hidden;
+}
+
+.search > i{
+    font-size: 30px;
+    font-weight: 200;
+
+}
+.material-symbols-outlined{
+    margin-top: -5px;
+}
+/* main body------------------------------------------------------------------- */
+.main{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    justify-items: center;
+    justify-content: space-around;
+ width:1200;
+    grid-column-gap: 10px;
+    
+
+    
+    
+ }
+
+ 
+ 
+ button{
+    background-color: #ffff;
+ }
+
+ 
+ /* left-side bar --------------------------------------------------------------- */
+ .left_bar{
+    height: 383px;
+    width: 280px;
+    background-color: rgb(251, 253, 253);
+   
+   
+    margin-top: 10px;
+    border-radius: 3%;
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 2px;
+  
+   
+
+ } 
+ .name{
+    font-size: 20px;
+    
+    color: rgb(80, 77, 77);
+ }
+ b{
+    font-weight: 900;
+ }
+ .jobprofile{
+    font-size: 14px;
+    color: rgb(153 147 147);
+    font-weight: 500;
+    margin-top: 5px;
+ }
+
+.profilecover img{
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px ;
+    height:  73px;
+    width: 280px;
+}
+.dp img{
+    width: 100px;
+    height: 154px;
+    z-index: -999;
+    
+}
+.dp {
+    height: 80px;
+    width: 80px;
+    border-radius: 58px;
+    margin-top: -50px;
+    background-image: url(dp.jpg);
+    background-position: center;
+    background-size: 67px;
+    border: white solid 3px;
+} 
+.connactions .cofont{margin-left: 5px;
+  
+}
+.connactions {
+    width: 280px;
+    border: solid rgb(153 147 147 ) 1px;
+    border-left: 0px;
+    padding: 15px 0px;
+    border-right: 0px;
+    color: rgb(134 127 127);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.premium_sidebar{
+    width: 280px;
+    border-bottom: solid rgb(153 147 147 ) 1px;
+    border-left: 0px;
+    padding: 15px 0px;
+    border-right: 0px;
+    color: rgb(134 127 127);
+margin-left: px;
+
+    align-items: center;
+
+}
+.premimum_text{margin-left: 5px;
+
+}
+.events{
+    display: flex;
+   margin-top: -10px;
+    align-items: center;
+}
+
+
+.cofont > h4,
+.premium_sidebar > h5,
+.g2 > i { color: #4b4949;
+    
+}
+.myitems{
+    display: flex;  
+    padding: 25px 0px;
+    
+   
+   justify-content: flex-start;
+}
+.myitems h5{
+    font-size: 15px;
+    margin-left: -8px;
+}
+.itemdiv{
+    width: 280px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+
+} 
+/* =========== */
+/* =========== */
+.leftsidebar2{
+    width: 280px;
+    height: auto;
+    background-color:  rgb(251, 253, 253);
+    margin-top: 10px;
+    border-radius: 3%;
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 2px;
+    top:  80px;
+    /* sticky margine */
+   position: sticky;
+   justify-content: center;
+
+  
+
+}
+.events{
+    display: flex;
+    justify-content: space-between; width: 260px;
+    text-decoration: none;
+}
+.leftsidebar2 a{
+    text-decoration: none;
+    margin-left: 10px;
+    color:rgb(81 81 162);
+    font-weight: lighter;
+    padding: 5px;
+}
+.discover{
+    width: 280px;
+    border-top: #bdafa8 solid 0.5px;
+    text-align: center;
+    margin-top: 20px; 
+    height: 60px;
+    
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+
+.discover h4{
+    padding: 13px;
+    font-size: 22px;
+    color: #838080;
+    font-weight: 40;
+
+}
+
+
+
+
+
+/* middle bar ===================================================================== */
+ .middle_bar{
+    height: auto;
+    width: 730px;
+    background-color:rgb(227, 226, 226) ;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.profile_data_search{ width: 680px;
+    height: 140px; background-color:rgb(246, 249, 249);
+  
+    border-radius: 13px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 0px 0px 1.5px;
+margin-top: 10px;
+
+}
+.postbar input{
+    width: 500px;
+    height: 30px;
+    outline: none;
+    border: white;
+    
+     color: grey;
+    
+    
+
+}
+.photo_input{
+    display: flex;
+    align-items: center;
+}
+.photo_input
+    .profile_pic{
+        height: 75px;
+        width: 75px;
+        border-radius: 58px;
+      margin: 3px 10px;
+        background-image: url(dp.jpg);
+        background-position: center;
+        background-size: 67px;
+        border: white solid 3px;
+    
+    }
+    
+.postbar{
+    padding: 10px;
+    background-color: white;
+width: 500px;
+    height: 35px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    border: #958585ba solid 1PX;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/* posticons  --------- */
+.posticons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 688px;
+    padding: 0px;
+    padding: 11px;;
+}
+/* for inline text and icon from  single div */
+.posticons .icon{
+    display: flex;
+    flex-direction: row;
+    width: auto; 
+    font-size: 30px;
+   
+ height: 30px;
+  padding: 0px 20px;
+  margin-left: 15px;
+    
+    /* aline conetnt center in self div */
+    justify-content: center;
+    height: 60px;
+    border-radius: 5px;
+   
+}
+.posticons h2{
+    font-size: 15px;
+    
+    margin-left: 15px;
+}
+.posticons {
+    font-size: 25px;
+}
+/* first post div---------------------------------------------------------------------------- */
+.profile_header{
+    display: flex;
+   padding: 0px 5px;
+   align-items: center;
+    width: 700px;
+    height: 106px;
+}
+.profile_pic{
+    height: 75px;
+    width: 75px;
+    border-radius: 58px;
+  margin: 3px 10px;
+    background-image: url(dp.jpg);
+    background-position: center;
+    background-size: 67px;
+    border: white solid 3px;
+
+}
+.name_followers > h4{
+    font-size: 21px;
+    color: #595555;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.name_followers> p{
+    color: #7f8f8f;
+    margin-top: 2px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 307px;
+    color: #4d4dd1;
+
+
+}
+.follow h3{
+    font-size: 21px;
+}
+.post_time{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: flex-start;
+   justify-content: space-between;
+   width: 65px;
+ 
+} 
+.post_time >p{
+    color: #7f8f8f;
+}
+.paragraph {
+    width: 658px;
+    text-align: justify;
+    margin-left: 22px;
+    height: 75px;
+}
+.paragraph p{
+    
+    color: #595555;
+    font-size: 18px;  
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+    height: 70px;
+    
+}
+.paragraph{
+    color: #595555;
+    font-size: 18px; 
+}
+
+.post_photo img{
+    height: 462px;
+    width: 699px;
+}
+.received_likes{
+    display: flex;
+    justify-content: space-between;
+    width: 668px;
+    height: 20px;
+    padding: 1px 17px;    
+    margin-top: 5px;
+
+
+    
+}
+.likelogo{
+    display: flex;
+    font-size:18px;
+    
+}
+/* ------------------------ */
+.comment_send_bar{
+    display: flex;
+    flex-direction: row;
+    width: 699px;
+    height: 61px;
+    margin-top: 10px;
+    
+    justify-content: center;
+   
+}
+.comment_send_bar .icon{
+    display: flex;
+    flex-direction: row;
+    width: auto; 
+    font-size: 30px;
+   
+ 
+  padding: 0px 20px;
+  margin-left: 15px;
+    
+    /* aline conetnt center in self div */
+    justify-content: center;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.comment_send_bar h2{
+    font-size: 20px;
+    margin-left: 10px;
+} 
+
+/* =====  div 2  =============================================================== */
+
+.mid2 .profile_header .profile_pic{
+    background-image: url( https://image3.mouthshut.com/images/imagesp/925915639s.png);
+    background-size:  73px;
+    border-radius: 0px;
+ }
+
+/* =====  div 3  =============================================================== */
+.mid3 .profile_header .profile_pic{
+    background-image: url( https://yt3.ggpht.com/ytc/AMLnZu8dZQJYCt6Ffcd-pl113huuo_HJ3PpvgkyFk5FkrQ=s900-c-k-c0x00ffffff-no-rj);
+    background-size:  75px;
+    border-radius: 46px;
+ }
+
+ /* ========================== rightbar=======================================  */
+ .right_bar{
+    height: 430px;
+    width: 350px;
+    background-color: rgb(250, 251, 251);
+    
+    top: 0;
+    margin-top: 10px;
+    border-radius: 3%;
+    box-shadow: 0px 0px 1.5px;
+    
+
+ } 
+ .right_bar .right{
+    width: 350px;
+    height: 85px;
+    padding-left: 10px ;
+    font-size: 20px;
+   
+   
+
+
+
+ }
+ .right1
+ {display: flex; 
+    padding: 15px;
+    justify-content: space-between;
+    width: 320px;
+
+font-size: 20px;
+   
+   
+    height: 50px;
+   color: #595555;
+ }
+
+ .right .r1 i{
+    font-size: 12px;
+    margin-right: 3px;
+ }
+ .r1{
+    display: flex;
+    align-items: center;
+ }
+ .right h4{
+    color: #595555;
+
+ }
+.right p{
+    margin-top: 10px; 
+    color: #838080;
+
+}
+
+.right_bar2{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 80px;
+    margin-top: 10px;
+    border-radius: 3%;
+    box-shadow: 0px 0px 1.5px;
+    } 
+
+    .line1 ,.line2{
+        width: 300px;
+        text-align: center;
+        padding: 10px;
+      
+    } 
+    .ad{
+        display: flex;
+        justify-content: flex-end;
+        width: 320px;
+    }
+    .photo_key{
+        display: flex; 
+        justify-content: center;
+        padding-top: 20px;
+
+    }
+    .photo_key img{
+         width: 80px;
+         height: 80px;
+
+    }
+    button{
+        color: #15157f;
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 10px;
+        border-radius: 25px;
+        border: #15157f solid 2px;
+       
+    }
+    .end{ width: 300px; 
+        height:  114px;
+    margin-top: 20px;
+    text-align: center;  
+    position: sticky;
+    top: 400px;
+    
+}
+.end a{margin-left: 20px;
+    position: sticky;
+    top: 500;
+}
+.last_div img{
+    width: auto;
+    height: 20px;
+
+
+}
+.last_div{
+    display: flex; 
+    position: sticky;
+    top:  500px;
+    justify-content: center;
+}
+/* =================================hovering================================= */
+.comment_send_bar .icon:hover,
+.posticons .icon:hover,.postbar:hover,.connactions:hover,
+.premium_sidebar:hover,.itemdiv:hover,.discover:hover,
+.right:hover
+{
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+.postbar:hover >input{
+    background-color:#e7e7e7;
+}
+
+.name_followers a:hover{
+    color: #15157f;
+}
+
+.follow:hover{
+    background-color: #dedef8c5;
+    transition: 0.3s;cursor: pointer;
+}
+
+.follow{
+    padding: 5px;
+    border-radius: 3%;
+}
+
+.icon:hover{
+    color: black;
+    cursor: pointer;
+    }
+   
+a:link{
+        text-decoration: none;
+    }
+   
+a:hover{
+        text-decoration: underline;
+        transition: 0.3s;cursor: pointer;
+    } 
+
+    button:hover{
+        background-color: #dfdfff;
+        transition: 0.3s;cursor: pointer;
+     }
+
+
+/* ========================================================================================= */
+/* for rotate content=rotate position-left-right=translate */
+.arrow{   transform: translate(34%) rotate(-49deg)   ;
+    margin-top: -4px; font-size: 40px;}
+ 
+    .comment_send_bar .share {font-size: 39px;
+        
+
+    }
+    /* for resize icon size write syntex with parent div  */
+    .comment_send_bar .arrow{
+        font-size: 33px;
+
+    }
+
+ 
+ /* middlebar   post  divs */
+
+ .mid1,.mid2,.mid3,.mid4,.mid5,.mid6,.mid7,.mid8{
+width: 700px;
+height:auto;
+background-color: rgb(246, 249, 249);
+margin: 10px;
+border-radius: 11px; 
+box-shadow: 0px 0px 1.5px;
+ }
+
+/* rightbar================================================ */
+
+
+
+    
+/* responsivness */
+@media only screen and (max-width:600px) {
+   /* learned from this exp. for get best resposivness set things in mobile view using media change every thing as per need */
+
+   .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+     }
+     .left_bar{
+        position: static;
+     }
+     .middle_bar{
+        width: auto;
+        
+     }
+     .navbar .left_header{
+        margin-left: 10px;
+
+     }
+     .right_header .icon{
+        width: 30px;
+     }
+    
+}
